@@ -308,8 +308,12 @@ a, button {
   background-repeat: no-repeat;
   background-position: right top; }
 
-.slider__author .slide-block--body--title {
-  margin-bottom: 20px; }
+.slider__author_new .item {
+  background-position: bottom left; }
+.slider__author_new .slide-block {
+  float: right; }
+  .slider__author_new .slide-block--body--title {
+    margin-bottom: 20px; }
 .slider .comment_below {
   margin-top: 250px; }
   .slider .comment_below .text-bellow {

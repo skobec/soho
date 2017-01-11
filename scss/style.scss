@@ -290,14 +290,23 @@ a, button {
 }
 .slider {
   &__author {
-    .item {
-      //background-position: bottom left;
-    }
-    .slide-block {
-      //float: right;
-      &--body {
-        &--title {
-          margin-bottom: 20px;
+    //.slide-block {
+    //  &--body {
+    //    &--title {
+    //      margin-bottom: 20px;
+    //    }
+    //  }
+    //}
+    &_new {
+      .item {
+        background-position: bottom left;
+      }
+      .slide-block {
+        float: right;
+        &--body {
+          &--title {
+            margin-bottom: 20px;
+          }
         }
       }
     }
