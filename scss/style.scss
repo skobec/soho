@@ -291,10 +291,10 @@ a, button {
 .slider {
   &__author {
     .item {
-      background-position: bottom left;
+      //background-position: bottom left;
     }
     .slide-block {
-      float: right;
+      //float: right;
       &--body {
         &--title {
           margin-bottom: 20px;
@@ -1490,6 +1490,12 @@ iframe.disable {
     .minitext--list--item {
       margin-top: 115px;
     }
+    .form-special {
+      &-2 {
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+      }
+    }
   }
 }
 .ico_rur {
@@ -1579,7 +1585,7 @@ iframe.disable {
 .gray-section {
   background-image: linear-gradient(72deg, #fdfdfd, #e9e9e9), linear-gradient(#ffffff, #ffffff);
   border-top: 1px solid #4c985c;
-  padding-bottom: 20px;
+  //padding-bottom: 20px;
   .form-special-2 {
     padding-top: 25px!important;
     margin-top: 260px;
